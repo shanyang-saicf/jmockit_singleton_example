@@ -5,7 +5,6 @@ import com.sy.example.SingletonGenerator;
 public class ServiceA {
 	
 	public long processNumber() {
-		
 		long num = SingletonGenerator.newInstance().getRandomNumber();
 		
 		if (num % 2 == 0) {

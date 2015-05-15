@@ -1,9 +1,9 @@
 package com.sy.example;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertTrue;
+import static org.junit.Assert.fail;
 import mockit.Expectations;
 import mockit.Mocked;
-import mockit.NonStrictExpectations;
 
 import org.junit.Before;
 import org.junit.Test;

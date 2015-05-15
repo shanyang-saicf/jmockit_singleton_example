@@ -1,7 +1,5 @@
 package com.sy.example;
 
-import java.util.UUID;
-
 public class SingletonGenerator {
 	
 	private SingletonGenerator() {}
@@ -12,9 +10,5 @@ public class SingletonGenerator {
 
 	public long getRandomNumber() {
 		return Math.round(Math.random());
-	}
-	
-	public String getRandomUID() {
-		return UUID.randomUUID().toString();
 	}
 }
